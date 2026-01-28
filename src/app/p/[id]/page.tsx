@@ -32,7 +32,7 @@ export default async function ViewPaste({ params }: { params: Promise<{ id: stri
           )}
         </div>
         
-        <pre className="p-4 bg-gray-100 rounded text-gray-700 font-mono whitespace-pre-wrap break-words">
+        <pre className="p-4 bg-gray-100 rounded text-gray-700 font-mono whitespace-pre-wrap wrap-break-word">
           {data.content}
         </pre>
         

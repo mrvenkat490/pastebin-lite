@@ -59,7 +59,7 @@ export default function Home() {
             onClick={createPaste}
             disabled={loading}
             className={`w-full md:w-auto px-10 py-3 rounded-full font-bold text-white transition-all transform hover:scale-105 active:scale-95 shadow-lg ${
-              loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700'
+              loading ? 'bg-gray-400 cursor-not-allowed' : 'bg-linear-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700'
             }`}
           >
             {loading ? 'Creating...' : 'Create Secret Paste'}
